@@ -1,0 +1,11 @@
+
+
+@mixin bg-icon($url,$size){
+    // background:url($url+"third.png");
+    background-size: $size;
+
+    display: block;
+    background:url("../img/biz_course_daily_paper_icon_audio_"+$url+".png") no-repeat;
+    background-size: $size;
+
+}

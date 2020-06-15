@@ -1,0 +1,101 @@
+// ### http://dict.youdao.com/jsonapi?q=love
+{
+    //<!-- 单词解释 -->
+    "video_sents":{
+        "word_info":{
+            "return_phrase":"love",
+            "sense":[
+                "n. 爱；爱情；喜好",
+                "v. 爱恋（某人）；关爱；喜欢（某物或某事）",
+                "n. (Love) （英、菲、瑞、美）洛夫（人名）"
+            ]
+        }
+    },
+    // 近义词
+    "rel_word":{     
+        "rels":{
+            "rel":[
+                {
+                    "rel":{
+                        "pos":"adv.",
+                        "words":{
+                            "word":"lovingly",
+                            "tran":"亲爱地"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    // 发音
+    "simple":{
+        "word":[
+            {
+                "usphone":"lʌv",
+                "ukphone":"lʌv"
+                
+            }
+        ]
+    },
+    //  短语
+    "phrs":[
+        {
+            "phr": {
+                "headword": {
+                    "l": {
+                        "i": "in love"
+                    }
+                },
+                "trs": [
+                    {
+                        "tr": {
+                            "l": {
+                                "i": "相爱；恋爱中"
+                            }
+                        }
+                    }
+                ],
+                "source": ""
+            }
+        }
+    ],
+    // 句子，发音，没有中文翻译
+    "media_sents_part":{
+        "sentence-count": 6,
+        "more": "media_sents",
+        "query": "love",
+        "sent": [
+            {
+                "@mediatype": "audio",
+                "snippets": {
+                    "snippet": [
+                        {
+                            "streamUrl": "https://dict.youdao.com/pureaudio?docid=-589532097249863446",
+                            "duration": "8400",
+                            "swf": "",
+                            "name": "special.2009.10.16",
+                            "source": "VOA",
+                            "win8": "https://dict.youdao.com/pureaudio?docid=-589532097249863446&dist=win8"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    // 视频，有翻译
+    "video_sents":{
+        "sents_data": [
+            {
+                "video_cover": "https://ydschool-video.nosdn.127.net/c8404b41-2e48-47a9-9ea9-60a11917d951.jpg",
+                "contributor": "U.S. Navy",
+                // 视频翻译
+                "subtitle_srt": "1\n00:00:00,000 --> 00:00:04,600\nGerald Ford embodied American values like few others,\n\n2\n00:00:05,050 --> 00:00:08,430\n<font color=#FF3D48>love</font> of family, <font color=#FF3D48>love</font> of freedom and most of all, <font color=#FF3D48>love</font> of country.\n\n",
+                "id": 6542,
+                "video": "https://ydschool-video.nosdn.127.net/5eb3310d-718d-4f71-8b11-ae443e006717.mp4"
+            }
+        ]
+    }
+
+
+
+}
